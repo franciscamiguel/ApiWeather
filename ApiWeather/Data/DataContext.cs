@@ -12,8 +12,10 @@ namespace ApiWeather.Data
         public DataContext(DbContextOptions<DataContext> options) : base(options) { }
 
         public DbSet<Cidade> Cidades { get; set; }
+        public DbSet<Clima> Climas { get; set; }
+        
 
-        
-        
+
+
     }
 }
